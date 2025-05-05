@@ -88,3 +88,10 @@ echo "Done" > output.log       # A new log file creation
 echo "Appending more text" >> output.log      # In order to add more text on top of it
                                               # we have to use >> notation 
 ```
+
+### Redirecting Standard Error
+``` bash
+grep foo *.txt 2> erorrs.ext       # First it searches for all the .txt files and it searches for foo
+                                   # If it finds it it will print in the terminal. If it does not, it
+                                   # will print
+```
