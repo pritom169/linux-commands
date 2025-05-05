@@ -74,3 +74,17 @@ cp file1.txt file2.txt         # Copy the content of file1 to file2
 mv -u file1.txt file2.txt tools
 mv -uv file1.txt file2.txt tools        # If one wants to see the details of the update
 ```
+
+### Removing Directories
+``` bash
+rmdir emptydir      # Remove empty directory 
+rm -r directory     # In order to delete a non-empty directory, we have to recursively 
+                    # delete the directory
+```
+
+### Redirection and Standard Output
+``` bash
+echo "Done" > output.log       # A new log file creation
+echo "Appending more text" >> output.log      # In order to add more text on top of it
+                                              # we have to use >> notation 
+```
