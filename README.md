@@ -33,5 +33,13 @@ echo "Hello, Linux" # Print text to stand out.
 man ls              # All the manuals for ls
 ```
 
+### Commands for Navigating directories
+``` bash
+cd /var/log        # Command for directly navigating to a particular directory
+cd ..              # Navigate to the previous directory
+cd                 # Navigate to the home directory
+cd ~/Downloads     # Go back to home directory and then navigate to downloads
+```
+
 
 
