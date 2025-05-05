@@ -46,6 +46,7 @@ cd ~/Downloads     # Go back to home directory and then navigate to downloads
 touch report.txt    # Command to create a report file
 touch script.sh     # Command for creating a shell script file
 chmod +x script.sh  # In order to to make a shell script excutable, we need this command
+cat report.txt      # To see the content of the file
 rm script.sh        # To delete the shell scipt
 ls *.sh             # Command to list all the files which has the extesion .sh
 file report.txt     # To get the type of the file
@@ -56,4 +57,9 @@ mv /from/folder/report.txt report.jpg   # It is taking the .txt file in the prev
                                         # on the current directory
 ```
 
-### 
+### Moving and Copy in Linux
+``` bash
+mkdir new-directory            # Creates a new directtory
+mv file1.txt file2.txt new-directory      # Moves file1.txt and file2.txt to new-directory
+cp file1.txt file2.txt         # Copy the content of file1 to file2
+```
