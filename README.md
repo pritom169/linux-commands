@@ -41,5 +41,13 @@ cd                 # Navigate to the home directory
 cd ~/Downloads     # Go back to home directory and then navigate to downloads
 ```
 
+### File extension commands in Linux
+``` bash
+touch report.txt    # Command to create a report file
+touch script.sh     # Command for creating a shell script file
+chmod +x script.sh  # In order to to make a shell script excutable, we need this command
+rm script.sh        # To delete the shell scipt
+ls *.sh             # Command to list all the files which has the extesion .sh
+```
 
 
