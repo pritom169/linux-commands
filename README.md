@@ -21,5 +21,17 @@ A **UNIX-based operating system** is one that follows the core design and standa
 
 ### **UNIX-based vs. UNIX-like:**  
 - **UNIX-based** = Directly derived from UNIX or certified (e.g., macOS, Solaris).  
-- **UNIX-like** = Behaves like UNIX but isn’t certified (e.g., Linux, BSD).  
+- **UNIX-like** = Behaves like UNIX but isn’t certified (e.g., Linux, BSD). 
+
+## Basic Linux Commands
+### Getting Started with Linux Commands
+``` bash
+pwd                 # Print the current directory
+ls                  # Command for listing all the files in current directory
+ls -l               # Long format listing, means it shows all the files with other details
+echo "Hello, Linux" # Print text to stand out.
+man ls              # All the manuals for ls
+```
+
+
 
