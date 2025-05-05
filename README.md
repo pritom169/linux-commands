@@ -48,6 +48,12 @@ touch script.sh     # Command for creating a shell script file
 chmod +x script.sh  # In order to to make a shell script excutable, we need this command
 rm script.sh        # To delete the shell scipt
 ls *.sh             # Command to list all the files which has the extesion .sh
+file report.txt     # To get the type of the file
+echo "hello world" > report.txt     # Command for writing to a certain file
+mv report.txt report.jpg    # In order to change the type of a file   
+mv /from/folder/report.txt report.jpg   # It is taking the .txt file in the previous folder
+                                        # renaming it to .jgp format and then putting it
+                                        # on the current directory
 ```
 
-
+### 
