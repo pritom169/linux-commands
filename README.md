@@ -51,7 +51,7 @@ rm script.sh        # To delete the shell scipt
 ls *.sh             # Command to list all the files which has the extesion .sh
 file report.txt     # To get the type of the file
 echo "hello world" > report.txt     # Command for writing to a certain file
-mv report.txt report.jpg    # In order to change the type of a file   
+mv report.txt report.jpg    # In order to change the type of a file or the name of the file  
 mv /from/folder/report.txt report.jpg   # It is taking the .txt file in the previous folder
                                         # renaming it to .jgp format and then putting it
                                         # on the current directory
@@ -62,4 +62,15 @@ mv /from/folder/report.txt report.jpg   # It is taking the .txt file in the prev
 mkdir new-directory            # Creates a new directtory
 mv file1.txt file2.txt new-directory      # Moves file1.txt and file2.txt to new-directory
 cp file1.txt file2.txt         # Copy the content of file1 to file2
+```
+
+### Update Files
+``` bash
+# Assume We are in the Desktop folder. There are two files file1.txt and file2.txt
+# The same two file are also present inside the tools folder which is inside desktop
+# If we want to move file1.txt and file2.txt to tools if and only if the files
+# inside the Desktop folder has been updated.
+
+mv -u file1.txt file2.txt tools
+mv -uv file1.txt file2.txt tools        # If one wants to see the details of the update
 ```
